@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ejemplo_checkbox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sistema.myappandroid.EjemploCheckbox"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <CheckBox
+        android:text="Rojo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uno"/>
+
+    <CheckBox
+        android:text="Azul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dos"/>
+
+    <CheckBox
+        android:text="Amarillo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tres"/>
+
+    <Button
+        android:text="color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boton"/>
+
+
+</LinearLayout>

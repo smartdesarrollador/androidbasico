@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ejemplo_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sistema.myappandroid.EjemploScrollview"
+    android:orientation="vertical"
+    android:baselineAligned="true"
+    android:gravity="center_horizontal"
+    tools:background="@color/colorAccent">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton2"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton3"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton4"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton5"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton6"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton7"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton8"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton9"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton10"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton11"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton12"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton13"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton14"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton15"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton16"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton17"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton18"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton19"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton20"/>
+
+             <Button
+                 android:text="hola"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/boton21"/>
+
+         </LinearLayout>
+
+
+   </ScrollView>
+
+
+</LinearLayout>

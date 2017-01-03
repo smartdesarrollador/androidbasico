@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ejemplo_table"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sistema.myappandroid.EjemploTable">
+
+    <TableRow>
+        <TextView android:text="texto 1 " />
+        <TextView android:text="texto 2 " />
+        <TextView android:text="texto 3 " />
+        <TextView android:text="texto 4 " />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="hola" android:layout_span="2" />
+        <TextView android:text="mundo" android:layout_span="2" />
+    </TableRow>
+
+</TableLayout>

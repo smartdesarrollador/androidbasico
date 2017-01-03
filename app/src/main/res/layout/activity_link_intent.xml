@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_link_intent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sistema.myappandroid.LinkIntent"
+    android:orientation="vertical">
+
+   <Button
+       android:text="Spinner"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/spinner"/>
+
+   <Button
+       android:text="Cuadro de Dialogo"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/cuadro"/>
+
+   <Button
+       android:text="Togle"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/toggle"/>
+
+   <Button
+       android:text="Checkbox"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/checkbox"/>
+
+   <Button
+       android:text="Scrollview"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/scrollview"/>
+
+   <Button
+       android:text="Crud Sqlite"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/crudsqlite"/>
+
+   <Button
+       android:text="RadioGroup"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/radiogroup"/>
+
+   <Button
+       android:text="TableLayout"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/tablelayout"/>
+
+   <Button
+       android:text="ImageView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/imageview"/>
+</LinearLayout>
