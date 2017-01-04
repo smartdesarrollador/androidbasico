@@ -10,7 +10,8 @@ import android.widget.Button;
 public class LinkIntent extends AppCompatActivity implements View.OnClickListener {
 
     Button spinner, toggle, cuadro, checkbox, scrollview,
-            radiogroup, crudsqlite, tablelayout, imageview;
+            radiogroup, crudsqlite, tablelayout, imageview,
+            fragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,7 @@ public class LinkIntent extends AppCompatActivity implements View.OnClickListene
         crudsqlite = (Button) findViewById(R.id.crudsqlite);
         tablelayout = (Button) findViewById(R.id.tablelayout);
         imageview = (Button) findViewById(R.id.imageview);
+        fragment = (Button) findViewById(R.id.fragment);
 
 
 
@@ -38,6 +40,7 @@ public class LinkIntent extends AppCompatActivity implements View.OnClickListene
         crudsqlite.setOnClickListener(this);
         tablelayout.setOnClickListener(this);
         imageview.setOnClickListener(this);
+        fragment.setOnClickListener(this);
 
 
     }
@@ -90,6 +93,11 @@ public class LinkIntent extends AppCompatActivity implements View.OnClickListene
             case R.id.imageview:
                 Intent ventana9 = new Intent(this,EjemploImageView.class);
                 startActivity(ventana9);
+                break;
+
+            case R.id.fragment:
+                Intent ventana10 = new Intent(this,ActivityFragments.class);
+                startActivity(ventana10);
                 break;
         }
 
